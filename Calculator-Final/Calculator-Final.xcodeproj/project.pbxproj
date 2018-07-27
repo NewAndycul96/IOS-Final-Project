@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		165EC696210B7A9600F60C3D /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165EC695210B7A9600F60C3D /* ConversionViewController.swift */; };
 		16D040642109561900F9019C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D040632109561900F9019C /* AppDelegate.swift */; };
 		16D040692109561900F9019C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D040672109561900F9019C /* Main.storyboard */; };
 		16D0406C2109561900F9019C /* Calculator_Final.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16D0406A2109561900F9019C /* Calculator_Final.xcdatamodeld */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		165EC695210B7A9600F60C3D /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		16D040602109561900F9019C /* Calculator-Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator-Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D040632109561900F9019C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16D040682109561900F9019C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				16D040632109561900F9019C /* AppDelegate.swift */,
 				16D040672109561900F9019C /* Main.storyboard */,
+				165EC695210B7A9600F60C3D /* ConversionViewController.swift */,
 				16D0406D2109561A00F9019C /* Assets.xcassets */,
 				16D0406F2109561A00F9019C /* LaunchScreen.storyboard */,
 				16D040722109561A00F9019C /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16D040642109561900F9019C /* AppDelegate.swift in Sources */,
+				165EC696210B7A9600F60C3D /* ConversionViewController.swift in Sources */,
 				16D0406C2109561900F9019C /* Calculator_Final.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
