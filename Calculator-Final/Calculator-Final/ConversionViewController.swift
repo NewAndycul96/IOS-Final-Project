@@ -63,7 +63,7 @@ class ConversionViewController: UIViewController {
             self.inputDisplay.text = "°C"}))
         let action2 = (UIAlertAction(title: "celcius to fahrenheit", style: .default, handler: {(alertAction) -> Void in
             self.outputDisplay.text = "°C"
-            self.inputDisplay.text = "°F"}))
+            self.inputDisplay.text = "°F"})) 
 
         
         sheet.addAction(action1)
