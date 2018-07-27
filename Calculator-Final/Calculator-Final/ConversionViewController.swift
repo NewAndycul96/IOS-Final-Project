@@ -89,7 +89,7 @@ class ConversionViewController: UIViewController {
             let farenhiet = action2(number: number)
             outputDisplay.text = String(farenhiet)
         default:
-            print("ERROR")
+            print("ERROR: TRY AGAIN!")
             break
         }
         
